@@ -1,0 +1,7 @@
+Tema 3 
+
+In these section we will see some examples and definitions of systems of linear equations  with in the class of numerical methods so lets goooo!!!!!!!!!
+Jacobi  method
+In numerical linear algebra, the Jacobi method  is an iterative algorithm for determining the solutions of a 
+strictly diagonally dominant system of linear equations.
+Each diagonal element is solved for, and an approximate value is plugged in.
