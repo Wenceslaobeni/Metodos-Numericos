@@ -1,7 +1,21 @@
 Tema 3 
 
 In these section we will see some examples and definitions of systems of linear equations  with in the class of numerical methods so lets goooo!!!!!!!!!
-Jacobi  method
+
+Gaussian elimination method
+ the Gaussian elimination method is known as the row reduction algorithm for solving linear equations systems. 
+It consists of a sequence of operations performed on the corresponding matrix of coefficients.
+We can also use this method to estimate either of the following: The rank of the given matrix
+
+Gauss Jordan method
+The Gauss-Jordan method is similar to the Gaussian elimination process, except that the entries both above and below each pivot are zeroed out. 
+After performing Gaussian elimination on a matrix, the result is in row echelon form, while the result after the Gauss-Jordan method is in reduced row echelon form.
+
+Gauss-Seidel method:
+In numerical linear algebra, the Gauss–Seidel method, also known as the Liebmann method
+or the method of successive displacement, is an iterative method used to solve a system of linear equations.
+
+Jacobi  method:
 In numerical linear algebra, the Jacobi method  is an iterative algorithm for determining the solutions of a 
 strictly diagonally dominant system of linear equations.
 Each diagonal element is solved for, and an approximate value is plugged in.
