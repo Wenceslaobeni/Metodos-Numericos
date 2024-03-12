@@ -1,1 +1,53 @@
+public class ResolverSistemaEcuaciones {
 
+    public static void main(String[] args) {
+        double[][] matriz = {
+            {2, -1, 1, 3, 7},
+            {1, 1, -2, -1, -10},
+            {3, 2, -3, 1, -3},
+            {-1, 3, 2, -2, 5}
+        };
+
+        gaussJordan(matriz);
+
+        System.out.println("Solución:");
+        for (int i = 0; i < matriz.length; i++) {
+            System.out.println("x" + (i + 1) + " = " + matriz[i][matriz[i].length - 1]);
+        }
+    }
+
+    // Método de eliminación de Gauss-Jordan
+    public static void gaussJordan(double[][] matriz) {
+        int n = matriz.length;
+
+        for (int i = 0; i < n; i++) {
+            // Pivoteo parcial
+            int filaMaxima = i;
+            for (int k = i + 1; k < n; k++) {
+                if (Math.abs(matriz[k][i]) > Math.abs(matriz[filaMaxima][i])) {
+                    filaMaxima = k;
+                }
+            }
+
+            double[] temp = matriz[i];
+            matriz[i] = matriz[filaMaxima];
+            matriz[filaMaxima] = temp;
+
+            // Hacer que los elementos diagonales sean 1
+            double divisor = matriz[i][i];
+            for (int j = i; j < n + 1; j++) {
+                matriz[i][j] /= divisor;
+            }
+
+            // Hacer cero los demás elementos en la columna
+            for (int k = 0; k < n; k++) {
+                if (k != i) {
+                    double multiplicador = matriz[k][i];
+                    for (int j = i; j < n + 1; j++) {
+                        matriz[k][j] -= multiplicador * matriz[i][j];
+                    }
+                }
+            }
+        }
+    }
+}
