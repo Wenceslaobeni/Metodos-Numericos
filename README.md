@@ -7,7 +7,7 @@ Bisección:
 	
  El método de Bisección está basado en un concepto muy sencillo, que consiste en tomar un intervalo que encierre la raíz que deseamos calcular, luego subdivimos dicho intervalo por la mitad y tomamos el sub-intervalo que contiene la raíz, descartando la otra mitad que no la contiene.
  
- Example 1:Bisección ejemplo 1
+[Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/6fccdafdf0d913a4adbcd4b09475be611fec0bb1/Bisecci%C3%B3n%20ejemplo%201)
  
  Example 2:
 
