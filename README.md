@@ -8,8 +8,24 @@ Bisección:
  El método de Bisección está basado en un concepto muy sencillo, que consiste en tomar un intervalo que encierre la raíz que deseamos calcular, luego subdivimos dicho intervalo por la mitad y tomamos el sub-intervalo que contiene la raíz, descartando la otra mitad que no la contiene.
  
 [Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/6fccdafdf0d913a4adbcd4b09475be611fec0bb1/Bisecci%C3%B3n%20ejemplo%201)
+
+
+
+
+[Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/245a6a7f0f2eb9a8aa7192720499bac3c55f5e52/bisecci%C3%B3n%202)
+
+
+[Ejemplo 3]()
+
+[Ejemplo 4]()
+
+
+[Ejemplo 5]()
+
+
+
  
- Example 2:
+
 
  /*
  * To change this license header, choose License Headers in Project Properties.
