@@ -17,7 +17,7 @@ Bisección:
 
 [Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/111acab745bb8982b07a83116d0e999d4d7eb133/bisection%203)
 
-[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/111acab745bb8982b07a83116d0e999d4d7eb133/bisection%204)
+[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/7a1a6ce0680f3a570a0cf4d19629008a95e9216e/bisection%204)
 
 
 
