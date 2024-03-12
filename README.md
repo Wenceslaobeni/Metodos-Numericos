@@ -103,29 +103,29 @@ El Método de Gauss-Jordan es una variante de la Eliminación Gaussiana que tran
 
 El Método de Gauss-Seidel es un método iterativo para resolver sistemas de ecuaciones lineales, que se enfoca en encontrar una solución aproximada al sistema actualizando iterativamente las variables en cada paso, utilizando los valores más recientes calculados.
 
-[Ejemplo 1]()
+[Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/603102dfc298c70b53d57e6c01e9d31b9e57ef67/Tema%203/M%C3%A9todo%20de%20Gauss-Seidel/M%C3%A9todo%20de%20Gauss-Seidel%201)
 
-[Ejemplo 2]()
+[Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/603102dfc298c70b53d57e6c01e9d31b9e57ef67/Tema%203/M%C3%A9todo%20de%20Gauss-Seidel/M%C3%A9todo%20de%20Gauss-Seidel%202)
 
-[Ejemplo 3]()
+[Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/603102dfc298c70b53d57e6c01e9d31b9e57ef67/Tema%203/M%C3%A9todo%20de%20Gauss-Seidel/M%C3%A9todo%20de%20Gauss-Seidel%203)
 
-[Ejemplo 4]()
+[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/603102dfc298c70b53d57e6c01e9d31b9e57ef67/Tema%203/M%C3%A9todo%20de%20Gauss-Seidel/M%C3%A9todo%20de%20Gauss-Seidel%204)
 
-[Ejemplo 5]()
+[Ejemplo 5](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/603102dfc298c70b53d57e6c01e9d31b9e57ef67/Tema%203/M%C3%A9todo%20de%20Gauss-Seidel/M%C3%A9todo%20de%20Gauss-Seidel%205)
 
 ## Método de Jacobi:
 
 El Método de Jacobi es otro método iterativo para resolver sistemas de ecuaciones lineales, donde se descompone la matriz original en una suma de una matriz diagonal y dos matrices triangulares, y se iteran las soluciones hasta que se alcanza la convergencia.
 
-[Ejemplo 1]()
+[Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/603102dfc298c70b53d57e6c01e9d31b9e57ef67/Tema%203/M%C3%A9todo%20de%20Jacobi/M%C3%A9todo%20de%20Jacobi%201)
 
-[Ejemplo 2]()
+[Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/603102dfc298c70b53d57e6c01e9d31b9e57ef67/Tema%203/M%C3%A9todo%20de%20Jacobi/M%C3%A9todo%20de%20Jacobi%202)
 
-[Ejemplo 3]()
+[Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/603102dfc298c70b53d57e6c01e9d31b9e57ef67/Tema%203/M%C3%A9todo%20de%20Jacobi/M%C3%A9todo%20de%20Jacobi%203)
 
-[Ejemplo 4]()
+[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/603102dfc298c70b53d57e6c01e9d31b9e57ef67/Tema%203/M%C3%A9todo%20de%20Jacobi/M%C3%A9todo%20de%20Jacobi%204)
 
-[Ejemplo 5]()
+[Ejemplo 5](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/603102dfc298c70b53d57e6c01e9d31b9e57ef67/Tema%203/M%C3%A9todo%20de%20Jacobi/M%C3%A9todo%20de%20Jacobi%205)
 
 
 
