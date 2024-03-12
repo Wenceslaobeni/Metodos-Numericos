@@ -1,9 +1,9 @@
 # Metodos-Numericos
 Hola Hola 
+# Tema 2 
+Bienvenidos al tema dos de Metodos Numericos. Where we learn some thing about bisección , regla falta, interpolación, secante in programing code so lets go!!!!!!!!
 
-Bienvenidos al tema dos de Metodos Numericos. Where we learn some thing about bisección , regla falta, interpolación, secante.
-
-Bisección:
+## Bisección:
 	
  El método de Bisección está basado en un concepto muy sencillo, que consiste en tomar un intervalo que encierre la raíz que deseamos calcular, luego subdivimos dicho intervalo por la mitad y tomamos el sub-intervalo que contiene la raíz, descartando la otra mitad que no la contiene.
  
@@ -21,7 +21,7 @@ Bisección:
 
 
 
- Regla Falsa:
+ ## Regla Falsa:
 
  El método de la regula falsi (regla del falso) o falsa posición es un método iterativo de resolución numérica de ecuaciones no lineales
   
@@ -36,425 +36,45 @@ Bisección:
 [Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/decd7cac7cfeeff3362ae624eea6b86745d50727/regla%20falsa%202)
 
 [Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/7cd7fa77d0a9f838031272470346e2867685d093/regla%20falsa%204)
+
 [Ejemplo 5](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/684b720042e6a23a0a421075951d439035f3bad5/relga%20falsa%205)
 
 
- Interpolación:
+## Interpolación:
 
  El método de Newton-Raphson, permite hallar una raíz de una ecuación no-lineal siempre y cuando se parta de una buena estimación inicial de la misma.
+[Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/c85ac2379f4d7037bcb4ea230bce8efe15b27386/Interpolaci%C3%B3n%201 )
 
+
+
+
+[Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/17b740ed4b6fc8c49fecf1b633de3f1b4dda1f22/Interpolaci%C3%B3n%202)
+
+
+[Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/e27b23e52cb7727e5b42c549582057fea7afd5b9/Interpolaci%C3%B3n%203)
+
+[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/e1ee4671a11c3ca2d0509ed0339f729550b59b5f/Interpolaci%C3%B3n%204)
+
+[Ejemplo 5](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/17b740ed4b6fc8c49fecf1b633de3f1b4dda1f22/Interpolaci%C3%B3n%205)
  
- Example 1:
-
- package ejercicio3;
-
-public class Ejercicio3 {
-public static double funcion(double x) {
-        return Math.sin(x);  
-    }
-   
-    public static double newtonRaphson(double xInicial, double tolerancia) {
-        double xActual = xInicial;
-
-        do {
-         
-            double valorFuncion = funcion(xActual);
-           
-            double pendienteFuncion = 2 * xActual;
-            
-          
-            double xSiguiente = xActual - valorFuncion / pendienteFuncion;
-            
-            // Actualizamos el valor de xActual
-            xActual = xSiguiente;
-            
-        } while (Math.abs(funcion(xActual)) > tolerancia); 
-
-        return xActual; 
-    }
-
-    public static void main(String[] args) {
-        double xInicial = 5.0; 
-        double tolerancia = 0.0001; 
-        double raiz = newtonRaphson(xInicial, tolerancia);
-        
-        System.out.println("La raíz encontrada es: " + raiz);
-    }     
-}
  
- Example 2:
-
- package newton2;
-
-/**
- *
- * @author benit
- */
-public class Newton2 {
-
-    /**
-     * @param args the command line arguments
-     */
-  public static double funcion(double x) {
-        return Math.sin(x-3);  
-    }
-   
-    public static double newtonRaphson(double xInicial, double tolerancia) {
-        double xActual = xInicial;
-
-        do {
-         
-            double valorFuncion = funcion(xActual);
-           
-            double pendienteFuncion = 2 * xActual;
-            
-          
-            double xSiguiente = xActual - valorFuncion / pendienteFuncion;
-            
-            // Actualizamos el valor de xActual
-            xActual = xSiguiente;
-            
-        } while (Math.abs(funcion(xActual)) > tolerancia); 
-
-        return xActual; 
-    }
-
-    public static void main(String[] args) {
-        double xInicial = 5.0; 
-        double tolerancia = 0.0001; 
-        double raiz = newtonRaphson(xInicial, tolerancia);
-        
-        System.out.println("La raíz encontrada es: " + raiz);
-    }     
-}
- Example 3:
-
- package newton3;
-
-/**
- *
- * @author benit
- */
-public class Newton3 {
-
-    /**
-     * @param args the command line arguments
-     */
- public static double funcion(double x) {
-        return Math.sin(x/3);  
-    }
-   
-    public static double newtonRaphson(double xInicial, double tolerancia) {
-        double xActual = xInicial;
-
-        do {
-         
-            double valorFuncion = funcion(xActual);
-           
-            double pendienteFuncion = 2 * xActual;
-            
-          
-            double xSiguiente = xActual - valorFuncion / pendienteFuncion;
-            
-            // Actualizamos el valor de xActual
-            xActual = xSiguiente;
-            
-        } while (Math.abs(funcion(xActual)) > tolerancia); 
-
-        return xActual; 
-    }
-
-    public static void main(String[] args) {
-        double xInicial = 5.0; 
-        double tolerancia = 0.0001; 
-        double raiz = newtonRaphson(xInicial, tolerancia);
-        
-        System.out.println("La raíz encontrada es: " + raiz);
-    }     
-}
-
- Example 4:
-
- package newton4;
-
-/**
- *
- * @author benit
- */
-public class Newton4 {
-
-    /**
-     * @param args the command line arguments
-     */
-public static double funcion(double x) {
-        return Math.sin(x*2);  
-    }
-   
-    public static double newtonRaphson(double xInicial, double tolerancia) {
-        double xActual = xInicial;
-
-        do {
-         
-            double valorFuncion = funcion(xActual);
-           
-            double pendienteFuncion = 2 * xActual;
-            
-          
-            double xSiguiente = xActual - valorFuncion / pendienteFuncion;
-            
-            // Actualizamos el valor de xActual
-            xActual = xSiguiente;
-            
-        } while (Math.abs(funcion(xActual)) > tolerancia); 
-
-        return xActual; 
-    }
-
-    public static void main(String[] args) {
-        double xInicial = 5.0; 
-        double tolerancia = 0.0001; 
-        double raiz = newtonRaphson(xInicial, tolerancia);
-        
-        System.out.println("La raíz encontrada es: " + raiz);
-    }     
-}
-
-
- Example 5: 
-
- package newton5;
-
-/**
- *
- * @author benit
- */
-public class Newton5 {
-
-    /**
-     * @param args the command line arguments
-     */
-public static double funcion(double x) {
-        return Math.sin(x*2/3);  
-    }
-   
-    public static double newtonRaphson(double xInicial, double tolerancia) {
-        double xActual = xInicial;
-
-        do {
-         
-            double valorFuncion = funcion(xActual);
-           
-            double pendienteFuncion = 2 * xActual;
-            
-          
-            double xSiguiente = xActual - valorFuncion / pendienteFuncion;
-            
-            // Actualizamos el valor de xActual
-            xActual = xSiguiente;
-            
-        } while (Math.abs(funcion(xActual)) > tolerancia); 
-
-        return xActual; 
-    }
-
-    public static void main(String[] args) {
-        double xInicial = 5.0; 
-        double tolerancia = 0.0001; 
-        double raiz = newtonRaphson(xInicial, tolerancia);
-        
-        System.out.println("La raíz encontrada es: " + raiz);
-    }     
-}
- Secante
-
+ ## Secante
+ 
  El método de la secante es un método para encontrar los ceros de una función de forma iterativa.
+ 
+[Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/aacb28adce1148c2ee07e6861c7148a560649698/secante%201 )
 
-  Example 1:
+[Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/7b78546a7e5adf2431d4f1ed3578b6ddfcdec885/secante%202)
 
- package secej5;
+[Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/718c4f7a148f7373308767ef0eea935c151c09d2/secante%203)
 
-import java.util.function.Function;
+[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/db2c771c02497f83acfd78d1eec7731352609494/secante%204)
 
-/**
- *
- * @author benit
- */
-public class Secej5 {
 
-    /**
-     * @param args the command line arguments
-     */
- public static double findRoot(Function<Double, Double> function, double x0, double x1, double tolerance, int maxIterations) {
-        double x2 = 0;
-        int iterations = 0;
-        
-        do {
-            x2 = x1 - ((function.apply(x1) * (x1 - x0)) / (function.apply(x1) - function.apply(x0)));
-            x0 = x1;
-            x1 = x2;
-            iterations++;
-        } while (Math.abs(function.apply(x2)) > tolerance && iterations < maxIterations);
-        
-        return x2;
-    }
 
-    public static void main(String[] args) {
-        
-        Function<Double, Double> function = x -> x /34*x; 
-        
-        double x0 = 0.5;
-        double x1 = 1.0;
-        
-        double tolerance = 0.0001;
-        int maxIterations = 1000; 
-        
-        double root = findRoot(function, x0, x1, tolerance, maxIterations);
-        
-        System.out.println("Raíz encontrada: " + root);
-    }    
-}
 
- Example 2:
 
- package secejr2;
 
-import java.util.function.Function;
-
-/**
- *
- * @author benit
- */
-public class Secejr2 {
-
-    /**
-     * @param args the command line arguments
-     */
-   
-        // TODO code application logic here
- public static double findRoot(Function<Double, Double> function, double x0, double x1, double tolerance, int maxIterations) {
-        double x2 = 0;
-        int iterations = 0;
-        
-        do {
-            x2 = x1 - ((function.apply(x1) * (x1 - x0)) / (function.apply(x1) - function.apply(x0)));
-            x0 = x1;
-            x1 = x2;
-            iterations++;
-        } while (Math.abs(function.apply(x2)) > tolerance && iterations < maxIterations);
-        
-        return x2;
-    }
-
-    public static void main(String[] args) {
-        
-        Function<Double, Double> function = x -> x * x - 3; 
-        
-        double x0 = 0.5;
-        double x1 = 1.0;
-        
-        double tolerance = 0.0001;
-        int maxIterations = 1000; 
-        
-        double root = findRoot(function, x0, x1, tolerance, maxIterations);
-        
-        System.out.println("Raíz encontrada: " + root);
-    }    
-}
-
- Example 3:
-
- package secejr3;
-
-import java.util.function.Function;
-
-/**
- *
- * @author benit
- */
-public class Secejr3 {
-
-    /**
-     * @param args the command line arguments
-     */
-   public static double findRoot(Function<Double, Double> function, double x0, double x1, double tolerance, int maxIterations) {
-        double x2 = 0;
-        int iterations = 0;
-        
-        do {
-            x2 = x1 - ((function.apply(x1) * (x1 - x0)) / (function.apply(x1) - function.apply(x0)));
-            x0 = x1;
-            x1 = x2;
-            iterations++;
-        } while (Math.abs(function.apply(x2)) > tolerance && iterations < maxIterations);
-        
-        return x2;
-    }
-
-    public static void main(String[] args) {
-        
-        Function<Double, Double> function = x -> x - 20; 
-        
-        // Definir los puntos iniciales  
-        double x0 = 0.5;
-        double x1 = 1.0;
-        
-        // Definir la tolerancia y el número máximo de iteraciones
-        double tolerance = 0.0001;
-        int maxIterations = 1000; 
-        
-        // Encontrar la raíz
-        double root = findRoot(function, x0, x1, tolerance, maxIterations);
-        
-        // Imprimir el resultado
-        System.out.println("Raíz encontrada: " + root);
-    }    
-}
-
- Example 4:
-
- package secejr4;
-
-import java.util.function.Function;
-
-/**
- *
- * @author benit
- */
-public class Secejr4 {
-
-    /**
-     * @param args the command line arguments
-     */
-public static double findRoot(Function<Double, Double> function, double x0, double x1, double tolerance, int maxIterations) {
-        double x2 = 0;
-        int iterations = 0;
-        
-        do {
-            x2 = x1 - ((function.apply(x1) * (x1 - x0)) / (function.apply(x1) - function.apply(x0)));
-            x0 = x1;
-            x1 = x2;
-            iterations++;
-        } while (Math.abs(function.apply(x2)) > tolerance && iterations < maxIterations);
-        
-        return x2;
-    }
-
-    public static void main(String[] args) {
-        
-        Function<Double, Double> function = x -> x * x+ 43; 
-        
-        double x0 = 0.5;
-        double x1 = 1.0;
-        
-        double tolerance = 0.0001;
-        int maxIterations = 1000; 
-        
-        double root = findRoot(function, x0, x1, tolerance, maxIterations);
-        
-        System.out.println("Raíz encontrada: " + root);
-    }    
-}
- Example 5: 
 
 
 
