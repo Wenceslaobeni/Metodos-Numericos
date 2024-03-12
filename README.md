@@ -67,6 +67,66 @@ Bienvenidos al tema dos de Metodos Numericos. Where we learn some thing about bi
 
 [Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/db2c771c02497f83acfd78d1eec7731352609494/secante%204)
 
+# Tema 3 
+En este emocionante recorrido, exploraremos la magia detrás de la Eliminación Gaussiana, el Método de Gauss-Jordan, el Método de Gauss-Seidel y
+el Método de Jacobi. Cada uno de estos métodos es como una herramienta encantada que transforma los desafíos matemáticos en soluciones codificadas. 
+
+## Eliminación Gaussiana:
+
+La Eliminación Gaussiana es un método utilizado para resolver sistemas de ecuaciones lineales al transformar la matriz original en una forma escalonada mediante operaciones elementales de fila.
+
+[Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3d6c0781a34e7a6c59b61830e271b65e9d6826d8/Tema%203/Eliminaci%C3%B3n%20Gaussiana/Eliminaci%C3%B3n%20Gaussiana%201)
+
+[Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/20aefc97df8e3798eca94c83051151fee692f658/Tema%203/Eliminaci%C3%B3n%20Gaussiana/Eliminaci%C3%B3n%20Gaussiana%202)
+
+[Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/8ac86a8f36d41f859f9a54a6c8712e553e49e61e/Tema%203/Eliminaci%C3%B3n%20Gaussiana/Eliminaci%C3%B3n%20Gaussiana%203)
+
+[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3e7c33764b7588a004eefdbcd23c3aecd83e861f/Tema%203/Eliminaci%C3%B3n%20Gaussiana/Eliminaci%C3%B3n%20Gaussiana%204)
+
+[Ejemplo 5](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/46fc775b08f6aa78228c60c2fdda228b93edc86e/Tema%203/Eliminaci%C3%B3n%20Gaussiana/Eliminaci%C3%B3n%20Gaussiana%205)
+ 
+
+## Método de Gauss-Jordan:
+El Método de Gauss-Jordan es una variante de la Eliminación Gaussiana que transforma la matriz original en su forma escalonada reducida, lo que permite resolver sistemas de ecuaciones y calcular la inversa de una matriz de manera eficiente.
+
+[Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/b09752b1d82c0034a040444ff867072d2a2c4be6/Tema%203/M%C3%A9todo%20de%20Gauss-Jordan/M%C3%A9todo%20de%20Gauss-Jordan%201)
+
+[Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/888ddc99266b7ec3f3a468d17caba9743537dcee/Tema%203/M%C3%A9todo%20de%20Gauss-Jordan/M%C3%A9todo%20de%20Gauss-Jordan%202)
+
+[Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/6f37ba499c0ae29a5479353da38f98d780fdbc70/Tema%203/M%C3%A9todo%20de%20Gauss-Jordan/M%C3%A9todo%20de%20Gauss-Jordan%203)
+
+[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/217363d123a60d19ba4a72907742ae1d68e35ee3/Tema%203/M%C3%A9todo%20de%20Gauss-Jordan/M%C3%A9todo%20de%20Gauss-Jordan%204)
+
+[Ejemplo 5](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/457d39b6f7ef11e6c49e2507e3a7f5a2f2b6310a/Tema%203/M%C3%A9todo%20de%20Gauss-Jordan/M%C3%A9todo%20de%20Gauss-Jordan%205)
+
+## Método de Gauss-Seidel:
+
+El Método de Gauss-Seidel es un método iterativo para resolver sistemas de ecuaciones lineales, que se enfoca en encontrar una solución aproximada al sistema actualizando iterativamente las variables en cada paso, utilizando los valores más recientes calculados.
+
+[Ejemplo 1]()
+
+[Ejemplo 2]()
+
+[Ejemplo 3]()
+
+[Ejemplo 4]()
+
+[Ejemplo 5]()
+
+## Método de Jacobi:
+
+El Método de Jacobi es otro método iterativo para resolver sistemas de ecuaciones lineales, donde se descompone la matriz original en una suma de una matriz diagonal y dos matrices triangulares, y se iteran las soluciones hasta que se alcanza la convergencia.
+
+[Ejemplo 1]()
+
+[Ejemplo 2]()
+
+[Ejemplo 3]()
+
+[Ejemplo 4]()
+
+[Ejemplo 5]()
+
 
 
 
