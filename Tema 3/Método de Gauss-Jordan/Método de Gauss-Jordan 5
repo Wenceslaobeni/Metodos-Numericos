@@ -1,1 +1,73 @@
+import java.util.Scanner;
 
+public class ResolverSistemaEcuaciones {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Solicitar al usuario el tamaño de la matriz
+        System.out.print("Ingrese el tamaño de la matriz (entre 10 y 14): ");
+        int tamano = scanner.nextInt();
+        if (tamano < 10 || tamano > 14) {
+            System.out.println("Tamaño de matriz inválido.");
+            return;
+        }
+
+        // Crear la matriz
+        double[][] matriz = new double[tamano][tamano + 1];
+
+        // Solicitar al usuario ingresar los valores de la matriz
+        System.out.println("Ingrese los elementos de la matriz por fila:");
+        for (int i = 0; i < tamano; i++) {
+            System.out.println("Fila " + (i + 1) + ":");
+            for (int j = 0; j <= tamano; j++) {
+                System.out.print("Elemento " + (j + 1) + ": ");
+                matriz[i][j] = scanner.nextDouble();
+            }
+        }
+
+        gaussJordan(matriz);
+
+        System.out.println("Solución:");
+        for (int i = 0; i < tamano; i++) {
+            System.out.println("x" + (i + 1) + " = " + matriz[i][tamano]);
+        }
+
+        scanner.close();
+    }
+
+    // Método de eliminación de Gauss-Jordan
+    public static void gaussJordan(double[][] matriz) {
+        int n = matriz.length;
+
+        for (int i = 0; i < n; i++) {
+            // Pivoteo parcial
+            int filaMaxima = i;
+            for (int k = i + 1; k < n; k++) {
+                if (Math.abs(matriz[k][i]) > Math.abs(matriz[filaMaxima][i])) {
+                    filaMaxima = k;
+                }
+            }
+
+            double[] temp = matriz[i];
+            matriz[i] = matriz[filaMaxima];
+            matriz[filaMaxima] = temp;
+
+            // Hacer que los elementos diagonales sean 1
+            double divisor = matriz[i][i];
+            for (int j = i; j <= n; j++) {
+                matriz[i][j] /= divisor;
+            }
+
+            // Hacer cero los demás elementos en la columna
+            for (int k = 0; k < n; k++) {
+                if (k != i) {
+                    double multiplicador = matriz[k][i];
+                    for (int j = i; j <= n; j++) {
+                        matriz[k][j] -= multiplicador * matriz[i][j];
+                    }
+                }
+            }
+        }
+    }
+}
