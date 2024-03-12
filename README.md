@@ -117,15 +117,13 @@ El Método de Gauss-Seidel es un método iterativo para resolver sistemas de ecu
 
 El Método de Jacobi es otro método iterativo para resolver sistemas de ecuaciones lineales, donde se descompone la matriz original en una suma de una matriz diagonal y dos matrices triangulares, y se iteran las soluciones hasta que se alcanza la convergencia.
 
-[Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/603102dfc298c70b53d57e6c01e9d31b9e57ef67/Tema%203/M%C3%A9todo%20de%20Jacobi/M%C3%A9todo%20de%20Jacobi%201)
+[Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/6964721b83f4d32f02959be8b2635980572cf49e/Tema%203/M%C3%A9todo%20de%20Jacobi/M%C3%A9todo%20de%20Jacobi%201)
 
-[Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/603102dfc298c70b53d57e6c01e9d31b9e57ef67/Tema%203/M%C3%A9todo%20de%20Jacobi/M%C3%A9todo%20de%20Jacobi%202)
+[Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/9daac79ebe3015326652f3ce084d9c2116031bfe/Tema%203/M%C3%A9todo%20de%20Jacobi/M%C3%A9todo%20de%20Jacobi%202)
 
-[Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/603102dfc298c70b53d57e6c01e9d31b9e57ef67/Tema%203/M%C3%A9todo%20de%20Jacobi/M%C3%A9todo%20de%20Jacobi%203)
+[Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/d62400070817ba4c0a7f52385d24bebed30f398e/Tema%203/M%C3%A9todo%20de%20Jacobi/M%C3%A9todo%20de%20Jacobi%203)
 
-[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/603102dfc298c70b53d57e6c01e9d31b9e57ef67/Tema%203/M%C3%A9todo%20de%20Jacobi/M%C3%A9todo%20de%20Jacobi%204)
-
-[Ejemplo 5](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/603102dfc298c70b53d57e6c01e9d31b9e57ef67/Tema%203/M%C3%A9todo%20de%20Jacobi/M%C3%A9todo%20de%20Jacobi%205)
+[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/7d6b8be35bd62a9aafbb94b69b22f2edd9514f03/Tema%203/M%C3%A9todo%20de%20Jacobi/M%C3%A9todo%20de%20Jacobi%204)
 
 
 
