@@ -43,13 +43,10 @@ Bienvenidos al tema dos de Metodos Numericos. Where we learn some thing about bi
 ## Interpolación:
 
  El método de Newton-Raphson, permite hallar una raíz de una ecuación no-lineal siempre y cuando se parta de una buena estimación inicial de la misma.
+ 
 [Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/c85ac2379f4d7037bcb4ea230bce8efe15b27386/Interpolaci%C3%B3n%201 )
 
-
-
-
 [Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/17b740ed4b6fc8c49fecf1b633de3f1b4dda1f22/Interpolaci%C3%B3n%202)
-
 
 [Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/e27b23e52cb7727e5b42c549582057fea7afd5b9/Interpolaci%C3%B3n%203)
 
