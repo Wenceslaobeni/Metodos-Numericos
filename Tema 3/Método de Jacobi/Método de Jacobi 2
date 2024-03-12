@@ -1,1 +1,45 @@
+import java.util.Arrays;
+import java.util.List;
 
+public class JacobiMethod {
+    public static void main(String[] args) {
+        List<List<Double>> coefficients = Arrays.asList(Arrays.asList(4.0, 1.0, 2.0), Arrays.asList(3.0, 5.0, 1.0), Arrays.asList(1.0, 1.0, 3.0));
+        List<Double> constants = Arrays.asList(7.0, -4.0, 3.0);
+        List<Double> initialGuess = Arrays.asList(0.0, 0.0, 0.0);
+        List<Double> solution = jacobi(coefficients, constants, initialGuess, 0.0001, 100);
+        for (int i = 0; i < solution.size(); i++) {
+            System.out.println("x" + (i + 1) + ": " + solution.get(i));
+        }
+    }
+
+    public static List<Double> jacobi(List<List<Double>> coefficients, List<Double> constants, List<Double> initialGuess, double tolerance, int maxIterations) {
+        int n = coefficients.size();
+        List<Double> previous = initialGuess;
+        List<Double> current = initialGuess;
+        int iteration = 0;
+        while (iteration < maxIterations) {
+            previous = new ArrayList<>(current);
+            for (int i = 0; i < n; i++) {
+                double sum = constants.get(i);
+                for (int j = 0; j < n; j++) {
+                    if (j != i) {
+                        sum -= coefficients.get(i).get(j) * previous.get(j);
+                    }
+                }
+                current.set(i, sum / coefficients.get(i).get(i));
+            }
+            iteration++;
+            boolean converged = true;
+            for (int i = 0; i < n; i++) {
+                if (Math.abs(current.get(i) - previous.get(i)) > tolerance) {
+                    converged = false;
+                    break;
+                }
+            }
+            if (converged) {
+                break;
+            }
+        }
+        return current;
+    }
+}
