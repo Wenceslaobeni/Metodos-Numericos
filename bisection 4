@@ -1,0 +1,55 @@
+in these part we will see the fourth and last example of bisection with the function= x -> x + 45 * x / x*x*x; 
+
+
+package bisec5;
+
+import java.util.function.Function;
+
+/**
+ *
+ * @author benit
+ */
+public class Bisec5 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+   Function<Double, Double> function = x -> x + 45 * x / x*x*x;
+
+        double a = 0;
+        double b = 2;
+
+        double root = bisection(function, a, b, 0.0001);
+        System.out.println("La raíz es aproximadamente: " + root);
+    }
+
+    public static double bisection(Function<Double, Double> function, double a, double b, double tolerance) {
+        double fa = function.apply(a);
+        double fb = function.apply(b);
+
+        if (fa * fb > 0) {
+            throw new IllegalArgumentException("La función no cambia de signo en el intervalo dado.");
+        }
+
+        while ((b - a) / 2.0 > tolerance) {
+            double c = (a + b) / 2.0;
+            double fc = function.apply(c);
+
+            if (fc == 0.0) {
+                return c;
+            } else if (fa * fc < 0) {
+                b = c;
+                fb = fc;
+            } else {
+                a = c;
+                fa = fc;
+            }
+        }
+
+        return (a + b) / 2.0;
+    
+    }
+    
+}
