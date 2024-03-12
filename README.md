@@ -7,56 +7,7 @@ Bisección:
 	
  El método de Bisección está basado en un concepto muy sencillo, que consiste en tomar un intervalo que encierre la raíz que deseamos calcular, luego subdivimos dicho intervalo por la mitad y tomamos el sub-intervalo que contiene la raíz, descartando la otra mitad que no la contiene.
  
- Example 1:
-
-package ejpackage bisecej2;
-
-import java.util.function.Function;
-
-public class Bisecej2 {
-
-
- public static void main(String[] args) {
-//       
-//        Function<Double, Double> function = x -> x * x - 4;
-        Function<Double, Double> function = x -> x + 2 * x * x;
-
-        double a = 0;
-        double b = 2;
-
-        double root = bisection(function, a, b, 0.0001);
-        System.out.println("La raíz es aproximadamente: " + root);
-    }
-
-    public static double bisection(Function<Double, Double> function, double a, double b, double tolerance) {
-        double fa = function.apply(a);
-        double fb = function.apply(b);
-
-        if (fa * fb > 0) {
-            throw new IllegalArgumentException("La función no cambia de signo en el intervalo dado.");
-        }
-
-        while ((b - a) / 2.0 > tolerance) {
-            double c = (a + b) / 2.0;
-            double fc = function.apply(c);
-
-            if (fc == 0.0) {
-                return c;
-            } else if (fa * fc < 0) {
-                b = c;
-                fb = fc;
-            } else {
-                a = c;
-                fa = fc;
-            }
-        }
-
-        return (a + b) / 2.0;
-    
-    }
-    
-}
- 
+ Example 1:Bisección ejemplo 1
  
  Example 2:
 
