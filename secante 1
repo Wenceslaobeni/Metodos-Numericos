@@ -1,1 +1,43 @@
+ package secej5;
+
+import java.util.function.Function;
+
+/**
+ *
+ * @author benit
+ */
+public class Secej5 {
+
+    /**
+     * @param args the command line arguments
+     */
+ public static double findRoot(Function<Double, Double> function, double x0, double x1, double tolerance, int maxIterations) {
+        double x2 = 0;
+        int iterations = 0;
+        
+        do {
+            x2 = x1 - ((function.apply(x1) * (x1 - x0)) / (function.apply(x1) - function.apply(x0)));
+            x0 = x1;
+            x1 = x2;
+            iterations++;
+        } while (Math.abs(function.apply(x2)) > tolerance && iterations < maxIterations);
+        
+        return x2;
+    }
+
+    public static void main(String[] args) {
+        
+        Function<Double, Double> function = x -> x /34*x; 
+        
+        double x0 = 0.5;
+        double x1 = 1.0;
+        
+        double tolerance = 0.0001;
+        int maxIterations = 1000; 
+        
+        double root = findRoot(function, x0, x1, tolerance, maxIterations);
+        
+        System.out.println("Raíz encontrada: " + root);
+    }    
+}
 
