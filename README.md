@@ -9,6 +9,8 @@ Bienvenidos al tema dos de Métodos Numericos. Where we learn some thing about b
  [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/tree/c89d12ddccf7511326335f5f8b9bbcaf75638a80)
 
  [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/04843ec44a773bea45e21fb79542ed8a3f3aa706/Algortimo)
+
+ [IMplmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/e63dcef2fe2f1bbe0fd803b9fa00240717419dca/implementaci%C3%B3n%20del%20m%C3%A9todo%20de%20la%20bisecci%C3%B3n)
  
 [Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/6fccdafdf0d913a4adbcd4b09475be611fec0bb1/Bisecci%C3%B3n%20ejemplo%201)
 
