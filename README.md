@@ -6,7 +6,7 @@ Bienvenidos al tema dos de Métodos Numericos. Where we learn some thing about b
 ### Bisección:
 	
 
- [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/tree/c89d12ddccf7511326335f5f8b9bbcaf75638a80)
+ [¿Que es ?](https://github.com/Wenceslaobeni/Metodos-Numericos/tree/c89d12ddccf7511326335f5f8b9bbcaf75638a80)
 
  [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/04843ec44a773bea45e21fb79542ed8a3f3aa706/Algortimo)
 
@@ -29,6 +29,12 @@ Bienvenidos al tema dos de Métodos Numericos. Where we learn some thing about b
  ## Regla Falsa:
 
  El método de la regula falsi (regla del falso) o falsa posición es un método iterativo de resolución numérica de ecuaciones no lineales
+ 
+ [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/tree/c89d12ddccf7511326335f5f8b9bbcaf75638a80)
+
+ [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/04843ec44a773bea45e21fb79542ed8a3f3aa706/Algortimo)
+
+ [IMplmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/e63dcef2fe2f1bbe0fd803b9fa00240717419dca/implementaci%C3%B3n%20del%20m%C3%A9todo%20de%20la%20bisecci%C3%B3n)
   
 [Ejemplo 1]( https://github.com/Wenceslaobeni/Metodos-Numericos/blob/ac9bb5d837dcbba38aac88e5b101c79bb52e0f18/regla%20falsa%201)
 
@@ -49,6 +55,12 @@ Bienvenidos al tema dos de Métodos Numericos. Where we learn some thing about b
 
  El método de Newton-Raphson, permite hallar una raíz de una ecuación no-lineal siempre y cuando se parta de una buena estimación inicial de la misma.
  
+ [¿QUE ES?](https://github.com/Wenceslaobeni/Metodos-Numericos/tree/c89d12ddccf7511326335f5f8b9bbcaf75638a80)
+
+ [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/04843ec44a773bea45e21fb79542ed8a3f3aa706/Algortimo)
+
+ [IMplmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/e63dcef2fe2f1bbe0fd803b9fa00240717419dca/implementaci%C3%B3n%20del%20m%C3%A9todo%20de%20la%20bisecci%C3%B3n)
+ 
 [Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/c85ac2379f4d7037bcb4ea230bce8efe15b27386/Interpolaci%C3%B3n%201 )
 
 [Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/17b740ed4b6fc8c49fecf1b633de3f1b4dda1f22/Interpolaci%C3%B3n%202)
@@ -63,6 +75,12 @@ Bienvenidos al tema dos de Métodos Numericos. Where we learn some thing about b
  ## Secante
  
  El método de la secante es un método para encontrar los ceros de una función de forma iterativa.
+ 
+ [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/tree/c89d12ddccf7511326335f5f8b9bbcaf75638a80)
+
+ [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/04843ec44a773bea45e21fb79542ed8a3f3aa706/Algortimo)
+
+ [IMplmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/e63dcef2fe2f1bbe0fd803b9fa00240717419dca/implementaci%C3%B3n%20del%20m%C3%A9todo%20de%20la%20bisecci%C3%B3n)
  
 [Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/aacb28adce1148c2ee07e6861c7148a560649698/secante%201 )
 
@@ -80,6 +98,12 @@ el Método de Jacobi. Cada uno de estos métodos es como una herramienta encanta
 
 La Eliminación Gaussiana es un método utilizado para resolver sistemas de ecuaciones lineales al transformar la matriz original en una forma escalonada mediante operaciones elementales de fila.
 
+ [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/tree/c89d12ddccf7511326335f5f8b9bbcaf75638a80)
+
+ [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/04843ec44a773bea45e21fb79542ed8a3f3aa706/Algortimo)
+
+ [IMplmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/e63dcef2fe2f1bbe0fd803b9fa00240717419dca/implementaci%C3%B3n%20del%20m%C3%A9todo%20de%20la%20bisecci%C3%B3n)
+
 [Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3d6c0781a34e7a6c59b61830e271b65e9d6826d8/Tema%203/Eliminaci%C3%B3n%20Gaussiana/Eliminaci%C3%B3n%20Gaussiana%201)
 
 [Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/20aefc97df8e3798eca94c83051151fee692f658/Tema%203/Eliminaci%C3%B3n%20Gaussiana/Eliminaci%C3%B3n%20Gaussiana%202)
@@ -93,6 +117,12 @@ La Eliminación Gaussiana es un método utilizado para resolver sistemas de ecua
 
 ## Método de Gauss-Jordan:
 El Método de Gauss-Jordan es una variante de la Eliminación Gaussiana que transforma la matriz original en su forma escalonada reducida, lo que permite resolver sistemas de ecuaciones y calcular la inversa de una matriz de manera eficiente.
+
+ [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/tree/c89d12ddccf7511326335f5f8b9bbcaf75638a80)
+
+ [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/04843ec44a773bea45e21fb79542ed8a3f3aa706/Algortimo)
+
+ [IMplmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/e63dcef2fe2f1bbe0fd803b9fa00240717419dca/implementaci%C3%B3n%20del%20m%C3%A9todo%20de%20la%20bisecci%C3%B3n)
 
 [Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/b09752b1d82c0034a040444ff867072d2a2c4be6/Tema%203/M%C3%A9todo%20de%20Gauss-Jordan/M%C3%A9todo%20de%20Gauss-Jordan%201)
 
@@ -108,6 +138,12 @@ El Método de Gauss-Jordan es una variante de la Eliminación Gaussiana que tran
 
 El Método de Gauss-Seidel es un método iterativo para resolver sistemas de ecuaciones lineales, que se enfoca en encontrar una solución aproximada al sistema actualizando iterativamente las variables en cada paso, utilizando los valores más recientes calculados.
 
+ [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/tree/c89d12ddccf7511326335f5f8b9bbcaf75638a80)
+
+ [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/04843ec44a773bea45e21fb79542ed8a3f3aa706/Algortimo)
+
+ [IMplmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/e63dcef2fe2f1bbe0fd803b9fa00240717419dca/implementaci%C3%B3n%20del%20m%C3%A9todo%20de%20la%20bisecci%C3%B3n)
+
 [Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/d6744445d525b601762cdc49bd032773d7da6996/Tema%203/M%C3%A9todo%20de%20Gauss-Seidel/M%C3%A9todo%20de%20Gauss-Seidel%201)
 
 [Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/d6744445d525b601762cdc49bd032773d7da6996/Tema%203/M%C3%A9todo%20de%20Gauss-Seidel/M%C3%A9todo%20de%20Gauss-Seidel%202)
@@ -122,6 +158,13 @@ El Método de Gauss-Seidel es un método iterativo para resolver sistemas de ecu
 
 El Método de Jacobi es otro método iterativo para resolver sistemas de ecuaciones lineales, donde se descompone la matriz original en una suma de una matriz diagonal y dos matrices triangulares, y se iteran las soluciones hasta que se alcanza la convergencia.
 
+
+ [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/tree/c89d12ddccf7511326335f5f8b9bbcaf75638a80)
+
+ [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/04843ec44a773bea45e21fb79542ed8a3f3aa706/Algortimo)
+
+ [IMplmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/e63dcef2fe2f1bbe0fd803b9fa00240717419dca/implementaci%C3%B3n%20del%20m%C3%A9todo%20de%20la%20bisecci%C3%B3n)
+ 
 [Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/6964721b83f4d32f02959be8b2635980572cf49e/Tema%203/M%C3%A9todo%20de%20Jacobi/M%C3%A9todo%20de%20Jacobi%201)
 
 [Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/9daac79ebe3015326652f3ce084d9c2116031bfe/Tema%203/M%C3%A9todo%20de%20Jacobi/M%C3%A9todo%20de%20Jacobi%202)
