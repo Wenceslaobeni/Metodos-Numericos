@@ -1,11 +1,12 @@
-# Metodos-Numericos
+# Método numérico 
 Hola Hola 
 # Tema 2 
-Bienvenidos al tema dos de Metodos Numericos. Where we learn some thing about bisección , regla falta, interpolación, secante in programing code so lets go!!!!!!!!
+Bienvenidos al tema dos de Métodos Numericos. Where we learn some thing about bisección , regla falta, interpolación, secante in programing code so lets go!!!!!!!!
 
 ### Bisección:
 	
- El método de Bisección está basado en un concepto muy sencillo, que consiste en tomar un intervalo que encierre la raíz que deseamos calcular, luego subdivimos dicho intervalo por la mitad y tomamos el sub-intervalo que contiene la raíz, descartando la otra mitad que no la contiene.
+
+ [Contenido](https://github.com/Wenceslaobeni/Metodos-Numericos/tree/c89d12ddccf7511326335f5f8b9bbcaf75638a80)
  
 [Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/6fccdafdf0d913a4adbcd4b09475be611fec0bb1/Bisecci%C3%B3n%20ejemplo%201)
 
