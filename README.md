@@ -6,9 +6,9 @@ Bienvenidos al tema dos de Métodos Numericos. Where we learn some thing about b
 ### Bisección:
 	
 
- [¿Que es ?](https://github.com/Wenceslaobeni/Metodos-Numericos/tree/c89d12ddccf7511326335f5f8b9bbcaf75638a80)
+ [¿Que es ?](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/327eea94c52e065ce38ff18e1c1fc62c16fb2894/Tema2/Bisecci%C3%B3n/Concepto%20Bis)
 
- [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/04843ec44a773bea45e21fb79542ed8a3f3aa706/Algortimo)
+ [Algoritmo]([https://github.com/Wenceslaobeni/Metodos-Numericos/blob/04843ec44a773bea45e21fb79542ed8a3f3aa706/Algortimo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/327eea94c52e065ce38ff18e1c1fc62c16fb2894/Tema2/Bisecci%C3%B3n/Algoritmo))
 
  [IMplmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/e63dcef2fe2f1bbe0fd803b9fa00240717419dca/implementaci%C3%B3n%20del%20m%C3%A9todo%20de%20la%20bisecci%C3%B3n)
  
