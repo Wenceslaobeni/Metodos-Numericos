@@ -8,7 +8,7 @@ Bienvenidos al tema dos de Métodos Numericos. Where we learn some thing about b
 
  [¿Que es ?](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/35932cc3d01171e32c40fc0bcac04d73a66ba67e/Tema2/Bisecci%C3%B3n/Concepto%20Bis)
 
- [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/327eea94c52e065ce38ff18e1c1fc62c16fb2894/Tema2/Bisecci%C3%B3n/Algoritmo)
+ [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/249e52db91cc6b85bb2d49cbcc25105fac039f7b/Tema2/Bisecci%C3%B3n/Algoritmo)
 
  [IMplmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/e63dcef2fe2f1bbe0fd803b9fa00240717419dca/implementaci%C3%B3n%20del%20m%C3%A9todo%20de%20la%20bisecci%C3%B3n)
  
