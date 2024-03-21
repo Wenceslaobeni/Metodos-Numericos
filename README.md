@@ -1,94 +1,54 @@
-# Método numérico 
-Hola Hola 
-# Tema 2 
-Bienvenidos al tema dos de Métodos Numericos. Where we learn some thing about bisección , regla falta, interpolación, secante in programing code so lets go!!!!!!!!
+# Métodos Numéricos
+
+## Tema 2: Métodos Numéricos
+
+¡Bienvenidos al tema dos de Métodos Numéricos! En este tema aprenderemos sobre la bisección, regla falsa, interpolación y secante en código de programación. ¡Vamos a ello!
 
 ### Bisección:
-	
 
- [¿Que es ?](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/35932cc3d01171e32c40fc0bcac04d73a66ba67e/Tema2/Bisecci%C3%B3n/Concepto%20Bis)
+- [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/35932cc3d01171e32c40fc0bcac04d73a66ba67e/Tema2/Bisección/Concepto%20Bis)
+- [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/249e52db91cc6b85bb2d49cbcc25105fac039f7b/Tema2/Bisección/Algoritmo)
+- [Implementación](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/f7856b09c7ea9b570e076de4754189e074f06bb2/Tema2/Bisección/Implementación%20del%20método%20de%20la%20bisección)
+- [Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/f7856b09c7ea9b570e076de4754189e074f06bb2/Tema2/Bisección/Bisección%20ejemplo%201)
+- [Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/f7856b09c7ea9b570e076de4754189e074f06bb2/Tema2/Bisección/Bisección%202)
+- [Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/f7856b09c7ea9b570e076de4754189e074f06bb2/Tema2/Bisección/Bisección%203)
+- [Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/f7856b09c7ea9b570e076de4754189e074f06bb2/Tema2/Bisección/Bisección%204)
 
- [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/249e52db91cc6b85bb2d49cbcc25105fac039f7b/Tema2/Bisecci%C3%B3n/Algoritmo)
+### Regla Falsa:
 
- [Implmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/f7856b09c7ea9b570e076de4754189e074f06bb2/Tema2/Bisecci%C3%B3n/implementaci%C3%B3n%20del%20m%C3%A9todo%20de%20la%20bisecci%C3%B3n)
- 
-[Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/f7856b09c7ea9b570e076de4754189e074f06bb2/Tema2/Bisecci%C3%B3n/Bisecci%C3%B3n%20ejemplo%201)
-
-
-
-
-[Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/f7856b09c7ea9b570e076de4754189e074f06bb2/Tema2/Bisecci%C3%B3n/bisecci%C3%B3n%202)
-
-
-[Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/f7856b09c7ea9b570e076de4754189e074f06bb2/Tema2/Bisecci%C3%B3n/bisection%203)
-
-[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/f7856b09c7ea9b570e076de4754189e074f06bb2/Tema2/Bisecci%C3%B3n/bisection%204)
-
-
-
- ## Regla Falsa:
-
-
- 
- [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/tree/4acf1f26a2f5e13b352993a04d4794c370ef7f42/Tema2/Regla%20Falsa)
-
- [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/930b174754eb62b332e4730ccb9b93528c885c79/Tema2/Regla%20Falsa/Algoritmo)
-
- [Implmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/5032eeb846c0d917b62fccb2cfa948af08a4f144/Tema2/Regla%20Falsa/Implementaci%C3%B3n)
-  
-[Ejemplo 1]( https://github.com/Wenceslaobeni/Metodos-Numericos/blob/bd7258ba281ce363d98e9784816f50d177d7c74d/Tema2/Regla%20Falsa/regla%20falsa)
-
-
-
-
-[Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/bd7258ba281ce363d98e9784816f50d177d7c74d/Tema2/Regla%20Falsa/regla%20falsa%202)
-
-
-[Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/bd7258ba281ce363d98e9784816f50d177d7c74d/Tema2/Regla%20Falsa/regla%20falsa%203)
-
-[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/bd7258ba281ce363d98e9784816f50d177d7c74d/Tema2/Regla%20Falsa/regla%20falsa%204)
-
-[Ejemplo 5](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/bd7258ba281ce363d98e9784816f50d177d7c74d/Tema2/Regla%20Falsa/relga%20falsa%205)
-
+- [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/tree/4acf1f26a2f5e13b352993a04d4794c370ef7f42/Tema2/Regla%20Falsa)
+- [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/930b174754eb62b332e4730ccb9b93528c885c79/Tema2/Regla%20Falsa/Algoritmo)
+- [Implementación](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/5032eeb846c0d917b62fccb2cfa948af08a4f144/Tema2/Regla%20Falsa/Implementación)
+- [Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/bd7258ba281ce363d98e9784816f50d177d7c74d/Tema2/Regla%20Falsa/Regla%20Falsa)
+- [Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/bd7258ba281ce363d98e9784816f50d177d7c74d/Tema2/Regla%20Falsa/Regla%20Falsa%202)
+- [Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/bd7258ba281ce363d98e9784816f50d177d7c74d/Tema2/Regla%20Falsa/Regla%20Falsa%203)
+- [Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/bd7258ba281ce363d98e9784816f50d177d7c74d/Tema2/Regla%20Falsa/Regla%20Falsa%204)
+- [Ejemplo 5](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/bd7258ba281ce363d98e9784816f50d177d7c74d/Tema2/Regla%20Falsa/Regla%20Falsa%205)
 
 ## Interpolación:
 
+- [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolación/Concepto)
+- [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolación/Algoritmo)
+- [Implementación](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolación/Implementación)
+- [Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolación/Interpolación%201)
+- [Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolación/Interpolación%202)
+- [Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolación/Interpolación%203)
+- [Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolación/Interpolación%204)
+- [Ejemplo 5](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolación/Interpolación%205)
+
+ ## Secante:
+
+- [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3c5657d79d530f2f4c55f1273e0abd636a0e5f39/Tema2/Secante/Concepto)
+- [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3c5657d79d530f2f4c55f1273e0abd636a0e5f39/Tema2/Secante/Algoritmo)
+- [Implementación](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3c5657d79d530f2f4c55f1273e0abd636a0e5f39/Tema2/Secante/Implementaci%C3%B3n)
+- [Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3c5657d79d530f2f4c55f1273e0abd636a0e5f39/Tema2/Secante/secante%201)
+- [Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3c5657d79d530f2f4c55f1273e0abd636a0e5f39/Tema2/Secante/secante%202)
+- [Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3c5657d79d530f2f4c55f1273e0abd636a0e5f39/Tema2/Secante/secante%203)
+- [Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3c5657d79d530f2f4c55f1273e0abd636a0e5f39/Tema2/Secante/secante%204)
+
+
  
- 
- [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolaci%C3%B3n/Algoritmo)
 
- [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolaci%C3%B3n/Algoritmo)
-
- [Implmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolaci%C3%B3n/Implementaci%C3%B3n)
- 
-[Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolaci%C3%B3n/Interpolaci%C3%B3n%201 )
-
-[Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolaci%C3%B3n/%20Interpolaci%C3%B3n%202)
-
-[Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolaci%C3%B3n/%20Interpolaci%C3%B3n%203)
-
-[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolaci%C3%B3n/%20Interpolaci%C3%B3n%204)
-
-[Ejemplo 5](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolaci%C3%B3n/%20Interpolaci%C3%B3n%205)
- 
- 
- ## Secante
- 
- 
- 
- [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3c5657d79d530f2f4c55f1273e0abd636a0e5f39/Tema2/Secante/Concepto)
-
- [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3c5657d79d530f2f4c55f1273e0abd636a0e5f39/Tema2/Secante/Algoritmo)
-
- [IMplmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3c5657d79d530f2f4c55f1273e0abd636a0e5f39/Tema2/Secante/Implementaci%C3%B3n)
- 
-[Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3c5657d79d530f2f4c55f1273e0abd636a0e5f39/Tema2/Secante/secante%201)
-
-[Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3c5657d79d530f2f4c55f1273e0abd636a0e5f39/Tema2/Secante/secante%202)
-
-[Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3c5657d79d530f2f4c55f1273e0abd636a0e5f39/Tema2/Secante/secante%203)
-
-[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3c5657d79d530f2f4c55f1273e0abd636a0e5f39/Tema2/Secante/secante%204)
 
 # Tema 3 
 En este emocionante recorrido, exploraremos la magia detrás de la Eliminación Gaussiana, el Método de Gauss-Jordan, el Método de Gauss-Seidel y
