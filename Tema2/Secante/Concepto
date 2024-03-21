@@ -1,0 +1,16 @@
+
+El método de la secante es una técnica numérica utilizada para encontrar las raíces o ceros de una función de manera iterativa.
+En lugar de requerir el valor exacto de la derivada de la función, como lo hace el método de Newton-Raphson, el método de 
+la secante aproxima la pendiente de la tangente a la curva de la función utilizando una "secante" formada por dos puntos cercanos en la curva.
+Este método es especialmente útil cuando la derivada de la función no es fácil de calcular o no está disponible.
+
+El concepto básico del método de la secante implica tomar dos puntos iniciales cercanos en la curva de la función y calcular la
+pendiente de la secante que los une.
+Luego, se calcula el punto en el eje x donde esta secante intersecta el eje x y se utiliza como una nueva estimación de la raíz. 
+Este proceso se repite iterativamente hasta 
+que se alcanza una cierta precisión o convergencia.
+
+El método de la secante es menos propenso a la divergencia que el método de Newton-Raphson en ciertas situaciones,
+pero puede converger más lentamente en comparación con el método
+de Newton-Raphson cuando la función tiene una curvatura alta. Sin embargo, sigue siendo un método eficaz y ampliamente utilizado para encontrar raíces de funciones en 
+problemas de análisis numérico y optimización.
