@@ -1,0 +1,49 @@
+import java.util.function.Function;
+
+public class ReglaFalsa {
+    
+    public static double reglaFalsa(Function<Double, Double> f, double a, double b, double tol, int maxIter) {
+        if (f.apply(a) * f.apply(b) >= 0) {
+            throw new IllegalArgumentException("La función no cambia de signo en el intervalo dado.");
+        }
+
+        int iterCount = 0;
+        double c = a;  // Inicializamos c con a
+        while (Math.abs(f.apply(c)) > tol && iterCount < maxIter) {
+            // Calcular el nuevo punto c utilizando la fórmula de la regla falsa
+            c = (a * f.apply(b) - b * f.apply(a)) / (f.apply(b) - f.apply(a));
+            
+            // Verificar en qué mitad del intervalo se encuentra la raíz
+            if (f.apply(c) == 0) {
+                return c;  // Hemos encontrado la raíz exacta
+            } else if (f.apply(c) * f.apply(a) < 0) {
+                b = c;
+            } else {
+                a = c;
+            }
+            iterCount++;
+        }
+
+        return c;
+    }
+
+    public static void main(String[] args) {
+        // Definimos la función para la cual queremos encontrar la raíz
+        Function<Double, Double> f = x -> x * x - 4;
+
+        // Definimos el intervalo inicial [a, b]
+        double a = 1;
+        double b = 3;
+
+        // Definimos la tolerancia y el número máximo de iteraciones
+        double tol = 1e-6;
+        int maxIter = 100;
+
+        // Aplicamos el método de la regla falsa para encontrar la raíz
+        double root = reglaFalsa(f, a, b, tol, maxIter);
+
+        // Mostramos el resultado
+        System.out.println("Aproximación de la raíz: " + root);
+        System.out.println("Valor de la función en la raíz: " + f.apply(root));
+    }
+}
