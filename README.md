@@ -57,6 +57,15 @@ el Método de Jacobi. Cada uno de estos métodos es como una herramienta encanta
 ## Eliminación Gaussiana:
 
 La Eliminación Gaussiana es un método utilizado para resolver sistemas de ecuaciones lineales al transformar la matriz original en una forma escalonada mediante operaciones elementales de fila.
+- [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/tree/c89d12ddccf7511326335f5f8b9bbcaf75638a80)
+- [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/04843ec44a773bea45e21fb79542ed8a3f3aa706/Algortimo)
+- [Implementación](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/e63dcef2fe2f1bbe0fd803b9fa00240717419dca/implementaci%C3%B3n%20del%20m%C3%A9todo%20de%20la%20bisecci%C3%B3n)
+- [Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3d6c0781a34e7a6c59b61830e271b65e9d6826d8/Tema%203/Eliminaci%C3%B3n%20Gaussiana/Eliminaci%C3%B3n%20Gaussiana%201)
+- [Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/20aefc97df8e3798eca94c83051151fee692f658/Tema%203/Eliminaci%C3%B3n%20Gaussiana/Eliminaci%C3%B3n%20Gaussiana%202)
+- [Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/8ac86a8f36d41f859f9a54a6c8712e553e49e61e/Tema%203/Eliminaci%C3%B3n%20Gaussiana/Eliminaci%C3%B3n%20Gaussiana%203)
+- [Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3e7c33764b7588a004eefdbcd23c3aecd83e861f/Tema%203/Eliminaci%C3%B3n%20Gaussiana/Eliminaci%C3%B3n%20Gaussiana%204)
+- [Ejemplo 5](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/46fc775b08f6aa78228c60c2fdda228b93edc86e/Tema%203/Eliminaci%C3%B3n%20Gaussiana/Eliminaci%C3%B3n%20Gaussiana%205)
+
 
  [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/tree/c89d12ddccf7511326335f5f8b9bbcaf75638a80)
 
