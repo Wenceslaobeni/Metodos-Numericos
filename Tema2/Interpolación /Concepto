@@ -1,0 +1,8 @@
+La interpolación es como "conectar los puntos". Imagina que tienes algunos puntos en un gráfico, pero no todos los puntos están marcados.
+La interpolación te permite estimar o "adivinar" los valores de los puntos que faltan entre los puntos conocidos. Es como dibujar una línea 
+suave que pasa a través de los puntos que ya conoces, y luego encontrar los valores de los puntos en esa línea que no están marcados.
+
+Por ejemplo, si tienes dos puntos (2, 4) y (6, 10), y quieres saber qué valor tendría la función en x = 4 (entre estos dos puntos),
+la interpolación te ayudaría a encontrarlo.
+
+La interpolación es útil cuando tienes datos incompletos y necesitas estimar valores intermedios con una cierta confianza
