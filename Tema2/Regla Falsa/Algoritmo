@@ -1,1 +1,26 @@
+Definición de la función:
+- Se define la función que se desea encontrar su raíz. En el código, se define como Function<Double, Double> function.
+
+Establecer el intervalo inicial:
+- Se definen los límites del intervalo [a, b] donde se espera que la raíz se encuentre. En el código, a y b son los límites del intervalo.
+
+Comprobación de cambio de signo:
+- Se comprueba si la función cambia de signo en el intervalo [a, b]. Esto es necesario para asegurar que existe al menos una raíz en el intervalo. 
+Si no hay cambio de signo, la función no tiene raíces en ese intervalo y el algoritmo no funcionará correctamente.
+
+Iteraciones del método de la regla falsa:
+- Se utiliza una interpolación lineal entre los puntos extremos del intervalo [a, b] para estimar la ubicación de la raíz.
+- Se calcula el nuevo punto c utilizando la fórmula de la regla falsa.
+- Se verifica en qué mitad del intervalo se encuentra la raíz:
+  - Si la función en c es cero, entonces c es la raíz y se devuelve.
+  - Si la función en c tiene el mismo signo que la función en a, entonces la raíz está en el subintervalo [c, b].
+  - Si la función en c tiene el mismo signo que la función en b, entonces la raíz está en el subintervalo [a, c].
+- Se reduce el intervalo [a, b] al subintervalo que contiene la raíz.
+- Se repiten estos pasos hasta que el ancho del intervalo sea menor que una tolerancia predefinida.
+
+Devolver la raíz aproximada:
+- Cuando el intervalo es lo suficientemente pequeño (es decir, el ancho es menor que la tolerancia), se devuelve la media de los extremos del intervalo como la raíz aproximada.
+
+Manejo de errores:
+- Se maneja el caso donde la función no cambia de signo en el intervalo dado. Esto evitará que el algoritmo se ejecute indefinidamente en un bucle.
 
