@@ -6,7 +6,8 @@ Establecer el intervalo inicial:
 Se definen los límites del intervalo [a, b] donde se espera que la raíz se encuentre. En tu código, a y b son los límites del intervalo.
 Comprobación de cambio de signo:
 
-Se comprueba si la función cambia de signo en el intervalo [a, b]. Esto es necesario para asegurar que existe al menos una raíz en el intervalo. Si no hay cambio de signo, la función no tiene raíces en ese intervalo y el algoritmo no funcionará correctamente.
+Se comprueba si la función cambia de signo en el intervalo [a, b]. Esto es necesario para asegurar que existe al menos una raíz en el intervalo. Si no hay cambio de signo, 
+la función no tiene raíces en ese intervalo y el algoritmo no funcionará correctamente.
 Iteraciones del método de la bisección:
 
 Se comienza dividiendo el intervalo [a, b] en dos partes iguales y se evalúa la función en el punto medio c.
