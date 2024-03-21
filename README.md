@@ -76,19 +76,19 @@ Bienvenidos al tema dos de Métodos Numericos. Where we learn some thing about b
  
  
  
- [Concepto]()
+ [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3c5657d79d530f2f4c55f1273e0abd636a0e5f39/Tema2/Secante/Concepto)
 
- [Algoritmo]()
+ [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3c5657d79d530f2f4c55f1273e0abd636a0e5f39/Tema2/Secante/Algoritmo)
 
- [IMplmentacion]()
+ [IMplmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3c5657d79d530f2f4c55f1273e0abd636a0e5f39/Tema2/Secante/Implementaci%C3%B3n)
  
-[Ejemplo 1]()
+[Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3c5657d79d530f2f4c55f1273e0abd636a0e5f39/Tema2/Secante/secante%201)
 
-[Ejemplo 2]()
+[Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3c5657d79d530f2f4c55f1273e0abd636a0e5f39/Tema2/Secante/secante%202)
 
-[Ejemplo 3]()
+[Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3c5657d79d530f2f4c55f1273e0abd636a0e5f39/Tema2/Secante/secante%203)
 
-[Ejemplo 4]()
+[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/3c5657d79d530f2f4c55f1273e0abd636a0e5f39/Tema2/Secante/secante%204)
 
 # Tema 3 
 En este emocionante recorrido, exploraremos la magia detrás de la Eliminación Gaussiana, el Método de Gauss-Jordan, el Método de Gauss-Seidel y
