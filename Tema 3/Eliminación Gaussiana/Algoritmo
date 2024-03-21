@@ -1,0 +1,28 @@
+algoritmo_elim_gaussiana:
+  pasos:
+    - paso: "Entrada de Datos"
+      descripcion: "Ingresar la matriz aumentada A de dimensiones n x (n+1)."
+    
+    - paso: "Inicialización"
+      descripcion: |
+        Inicializar el bucle para k desde 0 hasta n-1.
+
+    - paso: "Pivoteo"
+      descripcion: |
+        Verificar si el elemento diagonal A[k][k] es igual a 0. Si es así, intercambiar la fila k con otra fila r tal que A[r][k] != 0, si es posible.
+
+    - paso: "Normalización"
+      descripcion: |
+        Dividir la fila k por el elemento diagonal A[k][k] para hacerlo igual a 1.
+
+    - paso: "Eliminación"
+      descripcion: |
+        Para cada fila i desde k+1 hasta n, calcular el multiplicador m y actualizar la fila i restando m veces la fila k.
+
+    - paso: "Resultados"
+      descripcion: |
+        Resolver el sistema de ecuaciones triangular superior resultante mediante sustitución hacia atrás. La solución final es el vector x.
+
+    - paso: "Salida"
+      descripcion: |
+        Mostrar el vector x como la solución del sistema de ecuaciones.
