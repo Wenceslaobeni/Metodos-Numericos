@@ -1,0 +1,29 @@
+La interpolación es un método matemático utilizado para estimar valores desconocidos dentro de un conjunto de datos conocidos.
+El proceso de interpolación implica ajustar una curva o función que pase por los puntos dados y luego calcular el valor de la función en el punto de interés dentro 
+del intervalo dado.
+
+## Pasos del Proceso de Interpolación:
+
+1. **Definición de la Función**:
+   - Se define la función que se desea estimar. En el código, la función se define como `Function<Double, Double>`.
+
+2. **Establecer el Intervalo Inicial**:
+   - Se definen los límites del intervalo donde se espera que la función esté interpolada. Estos límites son representados por \( [a, b] \).
+
+3. **Comprobación de Cambio de Signo**:
+   - Se verifica si la función cambia de signo en el intervalo dado. Esto es crucial para asegurar que la interpolación sea válida.
+
+4. **Interpolación**:
+   - Se ajusta una curva o función que pasa a través de los puntos conocidos para estimar los valores de los puntos desconocidos dentro del intervalo dado.
+
+5. **Devolver la Estimación Aproximada**:
+   - Cuando se completa el proceso de interpolación, se devuelve la estimación aproximada de los valores desconocidos.
+
+## Métodos de Interpolación:
+Existen varios métodos de interpolación, incluyendo:
+- Interpolación Lineal
+- Interpolación Polinómica
+- Interpolación de Lagrange
+- Interpolación de Splines
+
+La elección del método de interpolación depende de la naturaleza de los datos y los requisitos específicos del problema.
