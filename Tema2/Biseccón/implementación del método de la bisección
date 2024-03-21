@@ -1,0 +1,44 @@
+import java.util.function.DoubleUnaryOperator;
+
+public class BisectionMethod {
+    
+    public static double bisection(DoubleUnaryOperator f, double a, double b, double tol, int maxIter) {
+        if (f.applyAsDouble(a) * f.applyAsDouble(b) >= 0) {
+            throw new IllegalArgumentException("La función no cambia de signo en el intervalo dado.");
+        }
+
+        int iterCount = 0;
+        while ((b - a) / 2 > tol && iterCount < maxIter) {
+            double c = (a + b) / 2;
+            if (f.applyAsDouble(c) == 0) {
+                return c;  // Encontramos la raíz exacta
+            } else if (f.applyAsDouble(c) * f.applyAsDouble(a) < 0) {
+                b = c;
+            } else {
+                a = c;
+            }
+            iterCount++;
+        }
+
+        return (a + b) / 2;
+    }
+
+    public static void main(String[] args) {
+        // Definimos la función para la cual queremos encontrar la raíz
+        DoubleUnaryOperator f = x -> x*x - 2;
+        
+        // Definimos el intervalo inicial [a, b]
+        double a = 1;
+        double b = 2;
+        
+        // Definimos la tolerancia y el número máximo de iteraciones
+        double tol = 1e-6;
+        int maxIter = 100;
+
+        // Aplicamos el método de bisección para encontrar la raíz
+        double root = bisection(f, a, b, tol, maxIter);
+
+        System.out.println("Aproximación de la raíz: " + root);
+        System.out.println("Valor de la función en la raíz: " + f.applyAsDouble(root));
+    }
+}
