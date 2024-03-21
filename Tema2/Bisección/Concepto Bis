@@ -1,11 +1,17 @@
-El método de bisección es un algoritmo de búsqueda de raíces utilizado para encontrar las soluciones de una ecuación en un intervalo dado. Funciona especialmente bien cuando se busca una raíz en un intervalo donde la función cambia de signo. El concepto básico del método de bisección es el siguiente:
+El método de bisección es un algoritmo de búsqueda de raíces utilizado para encontrar las soluciones de una ecuación en un intervalo dado.
+Funciona especialmente bien cuando se busca una raíz en un intervalo donde la función cambia de signo. 
+El concepto básico del método de bisección es el siguiente:
 
-Se elige un intervalo inicial donde se sospecha que se encuentra la raíz. Este intervalo debe contener exactamente una raíz y la función debe cambiar de signo en los extremos del intervalo.
+Se elige un intervalo inicial donde se sospecha que se encuentra la raíz. 
+Este intervalo debe contener exactamente una raíz y la función debe cambiar de signo en los extremos del intervalo.
 
 Se calcula el punto medio del intervalo y se evalúa la función en ese punto.
 
-Se verifica en qué mitad del intervalo se encuentra la raíz: si la función cambia de signo en el punto medio, entonces la raíz se encuentra en esa mitad del intervalo; de lo contrario, la raíz se encuentra en la otra mitad del intervalo.
+Se verifica en qué mitad del intervalo se encuentra la raíz: si la función cambia de signo en el punto medio, entonces la raíz se encuentra en esa mitad del intervalo; 
+de lo contrario, la raíz se encuentra en la otra mitad del intervalo.
 
-Se repite el proceso en el subintervalo donde se encuentra la raíz, dividiendo sucesivamente el intervalo por la mitad hasta que se alcance una precisión deseada o hasta que se satisfaga un criterio de convergencia predefinido.
+Se repite el proceso en el subintervalo donde se encuentra la raíz, dividiendo sucesivamente el intervalo por la mitad hasta que se alcance una precisión deseada o hasta que se satisfaga
+un criterio de convergencia predefinido.
 
-El método de bisección garantiza la convergencia hacia la raíz debido a la reducción sistemática del intervalo en cada iteración. Sin embargo, puede ser relativamente lento en comparación con otros métodos más avanzados, especialmente para funciones con múltiples raíces o para intervalos iniciales amplios.
+El método de bisección garantiza la convergencia hacia la raíz debido a la reducción sistemática del intervalo en cada iteración. 
+Sin embargo, puede ser relativamente lento en comparación con otros métodos más avanzados, especialmente para funciones con múltiples raíces o para intervalos iniciales amplios.
