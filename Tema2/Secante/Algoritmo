@@ -1,0 +1,19 @@
+## Método de la Secante
+
+### Descripción
+El método de la secante es un algoritmo utilizado para encontrar las raíces de una función de manera iterativa. No requiere el cálculo de la derivada de la función y es una alternativa al método de Newton-Raphson.
+
+### Entrada
+- Función f(x)
+- Dos aproximaciones iniciales de la raíz x_0 y x_1
+- Precisión deseada ε
+- Número máximo de iteraciones N
+
+### Proceso
+1. Iniciar con dos aproximaciones iniciales x_0 y x_1.
+2. Iterar hasta que se alcance la precisión deseada o el número máximo de iteraciones:
+   - Calcular una nueva aproximación x_{i+1} utilizando las aproximaciones anteriores.
+3. Devolver la aproximación de la raíz x_i.
+
+### Salida
+- Aproximación de la raíz x_i
