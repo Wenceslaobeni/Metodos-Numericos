@@ -1,0 +1,21 @@
+Metodo_de_Jacobi:
+  Descripción: >
+    El método de Jacobi es un algoritmo iterativo utilizado para resolver un sistema de ecuaciones lineales. 
+    Es un método iterativo que comienza con una suposición inicial para el vector solución y lo va refinando 
+    mediante iteraciones sucesivas hasta alcanzar un nivel deseado de precisión.
+  Entrada:
+    - A: Matriz de coeficientes del sistema lineal
+    - b: Vector del lado derecho
+    - x0: Suposición inicial para el vector solución
+    - tolerancia: Tolerancia deseada para la convergencia
+    - max_iteraciones: Número máximo de iteraciones permitidas
+  Salida:
+    - x: Vector solución
+    - iteraciones: Número de iteraciones realizadas
+  Pasos:
+    - Establecer k = 0
+    - Inicializar x^(0) = x0
+    - Repetir hasta la convergencia o alcanzar el máximo de iteraciones:
+      - Establecer x^(k+1)_i = (b_i - Σ(A_ik * x_k)) / A_ii para cada i = 1, 2, ..., n
+      - Incrementar k
+    - Devolver x^(k) como el vector solución
