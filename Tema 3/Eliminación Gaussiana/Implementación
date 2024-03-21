@@ -1,0 +1,51 @@
+public class EliminacionGaussiana {
+    
+    public static void main(String[] args) {
+        // Ejemplo de matriz aumentada
+        double[][] A = {
+            {2, 1, -1, 8},
+            {-3, -1, 2, -11},
+            {-2, 1, 2, -3}
+        };
+        
+        int n = A.length;
+        
+        // Aplicar eliminación gaussiana
+        for (int k = 0; k < n; k++) {
+            // Pivoteo parcial
+            int maxRow = k;
+            for (int i = k + 1; i < n; i++) {
+                if (Math.abs(A[i][k]) > Math.abs(A[maxRow][k])) {
+                    maxRow = i;
+                }
+            }
+            double[] temp = A[k];
+            A[k] = A[maxRow];
+            A[maxRow] = temp;
+            
+            // Eliminación
+            for (int i = k + 1; i < n; i++) {
+                double factor = A[i][k] / A[k][k];
+                for (int j = k; j < n + 1; j++) {
+                    A[i][j] -= factor * A[k][j];
+                }
+            }
+        }
+        
+        // Sustitución hacia atrás
+        double[] x = new double[n];
+        for (int i = n - 1; i >= 0; i--) {
+            x[i] = A[i][n];
+            for (int j = i + 1; j < n; j++) {
+                x[i] -= A[i][j] * x[j];
+            }
+            x[i] /= A[i][i];
+        }
+        
+        // Mostrar resultados
+        System.out.println("Solución:");
+        for (int i = 0; i < n; i++) {
+            System.out.println("x[" + i + "] = " + x[i]);
+        }
+    }
+}
