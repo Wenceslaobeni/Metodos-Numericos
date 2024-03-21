@@ -1,0 +1,35 @@
+import java.util.function.Function;
+
+public class InterpolacionLineal {
+
+    // Método para realizar interpolación lineal
+    public static double interpolacionLineal(Function<Double, Double> funcion, double x0, double y0, double x1, double y1, double x) {
+        // Calcular la pendiente de la recta que pasa por los dos puntos conocidos
+        double pendiente = (y1 - y0) / (x1 - x0);
+        // Utilizar la ecuación de la recta para encontrar el valor de y en el punto x deseado
+        double y = y0 + pendiente * (x - x0);
+        // Devolver el valor interpolado de y
+        return y;
+    }
+
+    public static void main(String[] args) {
+        // Definir la función
+        Function<Double, Double> funcion = (x) -> x * x; // Ejemplo de función x^2
+
+        // Definir los puntos conocidos (x, y)
+        double x0 = 2.0;
+        double y0 = funcion.apply(x0);
+        double x1 = 4.0;
+        double y1 = funcion.apply(x1);
+
+        // Valor de x para el que se quiere encontrar y
+        double x = 3.0;
+
+        // Realizar interpolación lineal
+        double y = interpolacionLineal(funcion, x0, y0, x1, y1, x);
+
+        // Mostrar el resultado
+        System.out.println("Para x = " + x + ", y = " + y);
+    }
+}
+
