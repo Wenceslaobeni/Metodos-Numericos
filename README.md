@@ -28,67 +28,67 @@ Bienvenidos al tema dos de Métodos Numericos. Where we learn some thing about b
 
  ## Regla Falsa:
 
- El método de la regula falsi (regla del falso) o falsa posición es un método iterativo de resolución numérica de ecuaciones no lineales
+
  
- [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/tree/c89d12ddccf7511326335f5f8b9bbcaf75638a80)
+ [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/tree/4acf1f26a2f5e13b352993a04d4794c370ef7f42/Tema2/Regla%20Falsa)
 
- [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/04843ec44a773bea45e21fb79542ed8a3f3aa706/Algortimo)
+ [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/930b174754eb62b332e4730ccb9b93528c885c79/Tema2/Regla%20Falsa/Algoritmo)
 
- [IMplmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/e63dcef2fe2f1bbe0fd803b9fa00240717419dca/implementaci%C3%B3n%20del%20m%C3%A9todo%20de%20la%20bisecci%C3%B3n)
+ [Implmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/5032eeb846c0d917b62fccb2cfa948af08a4f144/Tema2/Regla%20Falsa/Implementaci%C3%B3n)
   
-[Ejemplo 1]( https://github.com/Wenceslaobeni/Metodos-Numericos/blob/ac9bb5d837dcbba38aac88e5b101c79bb52e0f18/regla%20falsa%201)
+[Ejemplo 1]( https://github.com/Wenceslaobeni/Metodos-Numericos/blob/bd7258ba281ce363d98e9784816f50d177d7c74d/Tema2/Regla%20Falsa/regla%20falsa)
 
 
 
 
-[Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/33ad7f084e0d2daaada59971dd95b54581476e82/regla%20falsa%202)
+[Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/bd7258ba281ce363d98e9784816f50d177d7c74d/Tema2/Regla%20Falsa/regla%20falsa%202)
 
 
-[Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/decd7cac7cfeeff3362ae624eea6b86745d50727/regla%20falsa%202)
+[Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/bd7258ba281ce363d98e9784816f50d177d7c74d/Tema2/Regla%20Falsa/regla%20falsa%203)
 
-[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/7cd7fa77d0a9f838031272470346e2867685d093/regla%20falsa%204)
+[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/bd7258ba281ce363d98e9784816f50d177d7c74d/Tema2/Regla%20Falsa/regla%20falsa%204)
 
-[Ejemplo 5](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/684b720042e6a23a0a421075951d439035f3bad5/relga%20falsa%205)
+[Ejemplo 5](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/bd7258ba281ce363d98e9784816f50d177d7c74d/Tema2/Regla%20Falsa/relga%20falsa%205)
 
 
 ## Interpolación:
 
- El método de Newton-Raphson, permite hallar una raíz de una ecuación no-lineal siempre y cuando se parta de una buena estimación inicial de la misma.
  
- [¿QUE ES?](https://github.com/Wenceslaobeni/Metodos-Numericos/tree/c89d12ddccf7511326335f5f8b9bbcaf75638a80)
-
- [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/04843ec44a773bea45e21fb79542ed8a3f3aa706/Algortimo)
-
- [IMplmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/e63dcef2fe2f1bbe0fd803b9fa00240717419dca/implementaci%C3%B3n%20del%20m%C3%A9todo%20de%20la%20bisecci%C3%B3n)
  
-[Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/c85ac2379f4d7037bcb4ea230bce8efe15b27386/Interpolaci%C3%B3n%201 )
+ [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolaci%C3%B3n/Algoritmo)
 
-[Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/17b740ed4b6fc8c49fecf1b633de3f1b4dda1f22/Interpolaci%C3%B3n%202)
+ [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolaci%C3%B3n/Algoritmo)
 
-[Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/e27b23e52cb7727e5b42c549582057fea7afd5b9/Interpolaci%C3%B3n%203)
+ [Implmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolaci%C3%B3n/Implementaci%C3%B3n)
+ 
+[Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolaci%C3%B3n/Interpolaci%C3%B3n%201 )
 
-[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/e1ee4671a11c3ca2d0509ed0339f729550b59b5f/Interpolaci%C3%B3n%204)
+[Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolaci%C3%B3n/%20Interpolaci%C3%B3n%202)
 
-[Ejemplo 5](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/17b740ed4b6fc8c49fecf1b633de3f1b4dda1f22/Interpolaci%C3%B3n%205)
+[Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolaci%C3%B3n/%20Interpolaci%C3%B3n%203)
+
+[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolaci%C3%B3n/%20Interpolaci%C3%B3n%204)
+
+[Ejemplo 5](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/65eb4df9ed0b970643e1a9a75e273e56d41ef5af/Tema2/Interpolaci%C3%B3n/%20Interpolaci%C3%B3n%205)
  
  
  ## Secante
  
- El método de la secante es un método para encontrar los ceros de una función de forma iterativa.
  
- [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/tree/c89d12ddccf7511326335f5f8b9bbcaf75638a80)
-
- [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/04843ec44a773bea45e21fb79542ed8a3f3aa706/Algortimo)
-
- [IMplmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/e63dcef2fe2f1bbe0fd803b9fa00240717419dca/implementaci%C3%B3n%20del%20m%C3%A9todo%20de%20la%20bisecci%C3%B3n)
  
-[Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/aacb28adce1148c2ee07e6861c7148a560649698/secante%201 )
+ [Concepto]()
 
-[Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/7b78546a7e5adf2431d4f1ed3578b6ddfcdec885/secante%202)
+ [Algoritmo]()
 
-[Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/718c4f7a148f7373308767ef0eea935c151c09d2/secante%203)
+ [IMplmentacion]()
+ 
+[Ejemplo 1]()
 
-[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/db2c771c02497f83acfd78d1eec7731352609494/secante%204)
+[Ejemplo 2]()
+
+[Ejemplo 3]()
+
+[Ejemplo 4]()
 
 # Tema 3 
 En este emocionante recorrido, exploraremos la magia detrás de la Eliminación Gaussiana, el Método de Gauss-Jordan, el Método de Gauss-Seidel y
