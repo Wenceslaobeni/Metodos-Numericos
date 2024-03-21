@@ -1,4 +1,5 @@
-El método de bisección es un algoritmo de búsqueda de raíces utilizado para encontrar las soluciones de una ecuación en un intervalo dado. Funciona especialmente bien cuando se busca una raíz en un intervalo donde la función cambia de signo. 
+El método de bisección es un algoritmo de búsqueda de raíces utilizado para encontrar las soluciones de una ecuación en un intervalo dado. 
+Funciona especialmente bien cuando se busca una raíz en un intervalo donde la función cambia de signo. 
 
 
 Concepto Básico:
