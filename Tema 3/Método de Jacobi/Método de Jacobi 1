@@ -42,3 +42,9 @@ public class JacobiMethod {
         return current;
     }
 }
+
+------Resultado del sistema de ecuaciones:
+La solución aproximada del sistema de ecuaciones es:
+x[0] = 1.2439
+x[1] = -0.0244
+x[2] = 2.6585  
