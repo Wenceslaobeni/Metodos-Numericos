@@ -6,7 +6,7 @@
 
 ### Bisección:
 
-- [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/66a94e951eb2ae2f5dbf0ec1e46345ee95722296/Tema2/Bisecci%C3%B3n/implementaci%C3%B3n%20del%20m%C3%A9todo%20de%20la%20bisecci%C3%B3n)
+- [Concepto](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/381dcbc04ec3e801c807c90af1d8983931125c72/Tema2/Bisecci%C3%B3n/Concepto%20Bis)
 - [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/249e52db91cc6b85bb2d49cbcc25105fac039f7b/Tema2/Bisección/Algoritmo)
 - [Implementación](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/66a94e951eb2ae2f5dbf0ec1e46345ee95722296/Tema2/Bisecci%C3%B3n/implementaci%C3%B3n%20del%20m%C3%A9todo%20de%20la%20bisecci%C3%B3n)
 - [Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/f7856b09c7ea9b570e076de4754189e074f06bb2/Tema2/Bisección/Bisección%20ejemplo%201)
