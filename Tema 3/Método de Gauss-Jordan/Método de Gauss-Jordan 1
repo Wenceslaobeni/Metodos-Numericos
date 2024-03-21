@@ -49,3 +49,9 @@ public class GaussJordan {
         }
     }
 }
+
+---------Resultado del sistema de ecuaciones:
+La matriz en su forma escalonada reducida por filas es:
+1       0       0       -4
+0       1       0       9
+0       0       1       -7
