@@ -40,3 +40,6 @@ public static double bisection(Function<Double, Double> function, double a, doub
 
 }
 }
+
+----------------Resultado en pantalla : 
+La raíz aproximada es: 2.0000152587890625
