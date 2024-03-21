@@ -1,0 +1,24 @@
+# Regla Falsa (Método de la Secante)
+
+La regla falsa, también conocida como método de la secante, es un algoritmo numérico utilizado para encontrar raíces de una función. 
+Este método es similar al método de bisección, pero en lugar de dividir el intervalo por la mitad en cada iteración, utiliza una interpolación lineal entre dos puntos 
+(extremos del intervalo) para estimar la ubicación de la raíz.
+
+## Concepto Básico
+
+1. **Selección del Intervalo Inicial**: Al igual que en el método de bisección, se selecciona un intervalo inicial donde se sospecha que se encuentra la raíz.
+Este intervalo debe contener exactamente una raíz y la función debe cambiar de signo en los extremos del intervalo.
+
+2. **Interpolación Lineal**: Se traza una línea recta entre los puntos extremos del intervalo y se encuentra la intersección de esta línea con el eje x.
+Esta intersección se utiliza como una aproximación de la raíz.
+
+3. **Verificación y Actualización del Intervalo**: Se verifica en qué mitad del intervalo se encuentra la raíz: si la función cambia de signo en el punto calculado,
+entonces la raíz se encuentra en esa mitad del intervalo; de lo contrario, la raíz se encuentra en la otra mitad del intervalo. 
+El intervalo se actualiza en consecuencia para la próxima iteración.
+
+4. **Iteración y Convergencia**: El proceso se repite hasta que se alcance una precisión deseada o hasta que se satisfaga un criterio de convergencia predefinido.
+
+## Ventajas y Limitaciones
+
+- **Ventajas**: La regla falsa tiende a converger más rápidamente que el método de bisección, especialmente para funciones suaves.
+- **Limitaciones**: Puede ser menos estable en ciertos casos y puede requerir más evaluaciones de la función.
