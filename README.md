@@ -10,19 +10,19 @@ Bienvenidos al tema dos de Métodos Numericos. Where we learn some thing about b
 
  [Algoritmo](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/249e52db91cc6b85bb2d49cbcc25105fac039f7b/Tema2/Bisecci%C3%B3n/Algoritmo)
 
- [IMplmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/e63dcef2fe2f1bbe0fd803b9fa00240717419dca/implementaci%C3%B3n%20del%20m%C3%A9todo%20de%20la%20bisecci%C3%B3n)
+ [Implmentacion](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/f7856b09c7ea9b570e076de4754189e074f06bb2/Tema2/Bisecci%C3%B3n/implementaci%C3%B3n%20del%20m%C3%A9todo%20de%20la%20bisecci%C3%B3n)
  
-[Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/6fccdafdf0d913a4adbcd4b09475be611fec0bb1/Bisecci%C3%B3n%20ejemplo%201)
+[Ejemplo 1](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/f7856b09c7ea9b570e076de4754189e074f06bb2/Tema2/Bisecci%C3%B3n/Bisecci%C3%B3n%20ejemplo%201)
 
 
 
 
-[Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/245a6a7f0f2eb9a8aa7192720499bac3c55f5e52/bisecci%C3%B3n%202)
+[Ejemplo 2](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/f7856b09c7ea9b570e076de4754189e074f06bb2/Tema2/Bisecci%C3%B3n/bisecci%C3%B3n%202)
 
 
-[Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/111acab745bb8982b07a83116d0e999d4d7eb133/bisection%203)
+[Ejemplo 3](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/f7856b09c7ea9b570e076de4754189e074f06bb2/Tema2/Bisecci%C3%B3n/bisection%203)
 
-[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/7a1a6ce0680f3a570a0cf4d19629008a95e9216e/bisection%204)
+[Ejemplo 4](https://github.com/Wenceslaobeni/Metodos-Numericos/blob/f7856b09c7ea9b570e076de4754189e074f06bb2/Tema2/Bisecci%C3%B3n/bisection%204)
 
 
 
