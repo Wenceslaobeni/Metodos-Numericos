@@ -1,0 +1,51 @@
+import java.util.function.Function;
+
+public class SecanteMethod {
+    
+    // Método para encontrar la raíz de una función utilizando el método de la secante
+    public static double secantMethod(Function<Double, Double> f, double x0, double x1, double epsilon, int maxIterations) {
+        double xPrev = x0; // Valor inicial de x (x_{i-1})
+        double xCurr = x1; // Valor inicial de x (x_i)
+        int iterations = 0; // Contador de iteraciones
+
+        // Realizar iteraciones hasta alcanzar la precisión deseada o el máximo de iteraciones
+        while (iterations < maxIterations) {
+            double fPrev = f.apply(xPrev); // Valor de la función en x_{i-1}
+            double fCurr = f.apply(xCurr); // Valor de la función en x_i
+            double denominator = fCurr - fPrev; // Denominador de la fórmula de la secante
+
+            // Evitar división por cero
+            if (Math.abs(denominator) < epsilon) {
+                break;
+            }
+
+            // Calcular la siguiente aproximación de la raíz utilizando la fórmula de la secante
+            double xNext = xCurr - (fCurr * (xCurr - xPrev)) / denominator;
+
+            // Actualizar valores para la próxima iteración
+            xPrev = xCurr;
+            xCurr = xNext;
+            iterations++;
+
+            // Comprobar si se alcanzó la convergencia
+            if (Math.abs(xCurr - xPrev) < epsilon) {
+                break;
+            }
+        }
+
+        return xCurr; // Devolver la aproximación de la raíz encontrada
+    }
+
+    public static void main(String[] args) {
+        // Ejemplo de uso
+        Function<Double, Double> function = x -> Math.sin(x) - x * x; // Definir la función
+        double x0 = 0.5; // Aproximación inicial de la raíz
+        double x1 = 1.0; // Otra aproximación inicial de la raíz
+        double epsilon = 1e-6; // Precisión deseada
+        int maxIterations = 1000; // Número máximo de iteraciones permitidas
+
+        // Aplicar el método de la secante para encontrar la raíz de la función
+        double root = secantMethod(function, x0, x1, epsilon, maxIterations);
+        System.out.println("Aproximación de la raíz: " + root);
+    }
+}
