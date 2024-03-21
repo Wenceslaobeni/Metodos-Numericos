@@ -33,4 +33,8 @@ public static double funcion(double x) {
         System.out.println("La raíz encontrada es: " + raiz);
     }     
 }
+
+
+-------Resultado en pantalla:
+La raíz encontrada es: 5.0 
  
