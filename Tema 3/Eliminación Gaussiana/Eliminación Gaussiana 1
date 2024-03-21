@@ -60,3 +60,9 @@ public class GaussianElimination {
         return solution;
     }
 }
+
+----------Resultado del sistema de ecuaciones: 
+Solución del sistema de ecuaciones:
+x[0] = 1.0000000000000007
+x[1] = 2.0000000000000004
+x[2] = 1.9999999999999993 
